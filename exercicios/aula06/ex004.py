@@ -1,0 +1,11 @@
+n = input('Digite algo: ')
+
+print(f'Tipo: {type(n)}')
+print(f'É numérico ? {n.isnumeric()}')
+print(f'É alfabético ? {n.isalpha()}')
+print(f'É alfanumérico ? {n.isalnum()}')
+print(f'Está em maiúsculo ? {n.isupper()}')
+print(f'Está em minúsculo ? {n.islower()}')
+print(f'É decimal ? {n.isdecimal()}')
+print(f'É um espaço ? {n.isspace()}')
+print(f'É printável ? {n.isprintable()}')

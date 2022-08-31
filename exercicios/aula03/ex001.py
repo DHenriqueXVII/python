@@ -1,7 +1,9 @@
-print('Olá!')
+print('===== DESAFIO 01 =====')
 
-nome = input('Qual o seu nome ? ')
-idade = input('Quantos anos você tem ? ')
-peso = input('Quanto vocè pesa ? ')
+nome = input('Qual é o seu nome ? ')
 
-print(nome, idade, peso)
+#print('Olá,', nome , ', prazer em te conhecer!')
+
+#print('É um prazer te conhecer, {}'.format(nome))
+
+print(f'É um prazer te conhecer, {nome}!')
